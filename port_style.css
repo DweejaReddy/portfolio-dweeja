@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkturquoise;
+    position: sticky;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 30px 0px ;
+     
+}
+.navbar ul h2{
+    font-family: 'Crimson Text',serif;
+    font-size: 2em;
+    left: 0%;
+    top: 0;
+}
+.navbar ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: underline;
+    color: white;
+    padding: 8px 25px;
+}
+.navbar ul li a:hover{
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+    box-shadow: 0 0 5px white;
+}
+
+
+
+.main{
+    max-width: 500px;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+.main h1{
+    font-size: 5em;
+    color: #222f3e;
+    font-family: 'Crimson Text',serif; 
+}
+
+.main p{
+    font-size: 20px;
+    color:orangered;
+    font-family: 'Crimson Text',serif;
+}
+
+
+.icon{
+    position: absolute;
+    bottom: 40%;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+}
+.icon i{
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    margin: 5px 0px;
+    background: darkturquoise;
+}
+.icon i:hover{
+    background: transparent;
+    border: 1px solid black;
+    color: black;
+    
+}
+
+.box1{
+    width:50%;
+    height: 70%;
+    position: absolute;
+    top: 0;
+    right: 5%;
+    background:rgba(255, 234, 167, 0.7);
+    z-index: -3;
+}
+
+.rect{
+    width:30%;
+    height: 85%;
+    position: absolute;
+    top: 0;
+    right: 10%;
+    background:rgba(250, 160, 160, 0.7);
+    z-index: -1;
+}
+
+#me img{
+    position: relative;
+    top: 70px;
+    left: 55%;
+}
+
+#about{
+    display: flex;
+    flex-direction: column;
+    padding: 220px;
+    height: 40%;
+    align-items: center;
+}
+
+.heading{
+    display: flex;
+    font-size: 4em;
+    justify-content: space-between;
+    align-items: center;
+    left: 50%;
+    top: 0;
+    font-family:'Crimson Text', serif;   
+}
+
+.about-row{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about-left-col img{
+    width: 40%;
+    height: 100%;
+    padding: 50px;
+    left: 50%;
+}
+.about-right-col h2{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: right;
+    left: 70%;
+    top: 50%;
+    padding: 40px 40px;
+}
+
+.about-right-col p{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: right;
+    align-items: center;
+    left: 70%;
+    bottom: 50%;
+    font-size:x-large;
+}
+
+#skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 100px;
+}
+.circ{
+    border-radius: 50%;
+    position: absolute;
+    background: palegreen;
+    width: 200px;
+    height: 200px;
+    left: 2%;
+    top: 245%;
+    z-index: -1;
+}
+.circle{
+    border-radius: 50%;
+    position: absolute;
+    background: rgba(208, 191, 230, 0.7);
+    width: 220px;
+    height: 220px;
+    left: 4%;
+    top: 250%;
+    z-index: -1;
+}
+
+/* #code img{
+    position: relative;
+} */
+#code img{
+    position: absolute;
+    border-radius: 30%;
+    padding: 50px;
+    top: 250%;
+    left: 0%;
+    z-index: -1;
+}
+
+.heading{
+    display: flex;
+    font-size: 4em;
+    justify-content: space-between;
+    align-items: center;
+    left: 50%;
+    top: 0;
+    font-family: 'Crimson Text',serif;
+    padding: 20px 20px;  
+}
+
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 100px;
+    background-color: paleturquoise;
+}
+.see h1{
+    font-family: 'Crimson Text'serif;
+    right: 10%;
+    margin: 30px;
+    
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.input{
+    padding: 15px 20px;
+    margin: 15px;
+    width: 40%;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+}
+#message{
+    margin: 15px;
+    padding: 10px;
+    border-radius: 20px;
+}
+#submit{
+    padding: 15px 20px;
+    margin: 30px;
+    width: 15%;
+    border-radius: 20px;
+    background-color:darksalmon;
+    color: white;
+    border: none;
+    outline: none;
+}
+#submit:hover{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+footer{
+    padding: 20px 100px;
+    left: 50%;
+    background: darkturquoise;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
